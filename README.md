@@ -30,24 +30,32 @@ Follow these steps to get NewsHub running locally on your machine:
    git clone https://github.com/yourusername/newshub.git
    cd newshub
 2. Install dependencies:
+    ```bash
     npm install
 3. Create a .env file in the root directory and add your News API Key:
+    ```bash
    REACT_APP_NEWS_API_KEY=your_news_api_key_here
 4. Start the development server:
+    ```bash
    npm start
-5. Visit the app in your browser at http://localhost:3000.
+5. Visit the app in your browser at :
+    ```bash
+   http://localhost:3000.
 
-🌟 How It Works
+## 🌟 How It Works
 NewsHub uses the News API to fetch real-time articles from reliable sources.
 Users can select different categories to view news specific to their interests.
 The app is built with React.js components to ensure a modular and scalable architecture.
-💡 Future Enhancements
+
+# 💡 Future Enhancements
 Search Functionality: Implement a search bar for users to find news on specific topics.
 Bookmarking: Allow users to save articles for later reading.
 Dark Mode: Add a dark mode toggle for a more personalized experience.
-👨‍💻 Author
+
+# 👨‍💻 Author
 Dheeraj - GitHub | LinkedIn
-📝 License
+
+# 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 🌟 Stay informed, stay ahead with NewsHub! 🌟
